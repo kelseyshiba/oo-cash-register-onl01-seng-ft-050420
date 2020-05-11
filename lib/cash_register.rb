@@ -19,9 +19,9 @@ class CashRegister
   end
   # = discount.to_f/100 * self.total
 
-  def add_item(title, price, quantity = 1)
+  def add_item(item, price, quantity = 1)
     @total = price*quantity + self.total
-    @@items << title
+    @@items << item
   end
   
   def total
