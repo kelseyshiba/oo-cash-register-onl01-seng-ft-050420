@@ -24,7 +24,6 @@ class CashRegister
       @items << item
     end
   end
-  (3). times do 
   
   def total
     @total
