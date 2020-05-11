@@ -36,8 +36,7 @@ class CashRegister
 
   def void_last_transaction
     if @items.length == 0
-      binding.pry
-      @total = 0
+      return @total = 0
     else
       @total = self.total - self.price
     end
