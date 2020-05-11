@@ -23,7 +23,7 @@ class CashRegister
     quantity.times do 
       @items << item
     end
-    @price = price
+    @last_transaction = price, item
   end
   
   def total
