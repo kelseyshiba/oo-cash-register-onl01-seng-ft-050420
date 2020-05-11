@@ -38,7 +38,7 @@ class CashRegister
     if @items.length == 0
       @total = 0
     else
-      @total = self.total - self.price
+      @total = self.total - @last_transaction
     end
   end
 
