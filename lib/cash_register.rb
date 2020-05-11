@@ -40,6 +40,7 @@ class CashRegister
       @total = 0
     else
       @total = self.total - self.price
+    end
   end
 
 
