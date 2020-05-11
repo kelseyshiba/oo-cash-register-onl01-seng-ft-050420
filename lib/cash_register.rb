@@ -34,7 +34,8 @@ class CashRegister
   end
 
   def void_last_transaction
-    @items.length - 1
+    last = @items.length - 1
+    last
     @total = self.total 
   binding.pry
   end
