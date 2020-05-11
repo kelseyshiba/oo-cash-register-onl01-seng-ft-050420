@@ -24,7 +24,7 @@ class CashRegister
       @items << item
     end
     last_transaction = @items.last 
-    last_price = price
+    @price = price
   end
   
   def total
