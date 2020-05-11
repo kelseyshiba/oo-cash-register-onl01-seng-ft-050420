@@ -11,6 +11,7 @@ class CashRegister
 
   def apply_discount
     @total = discount.to_f * self.total
+    binding.pry
   end
 
   def add_item(title, price, quantity = 1)
