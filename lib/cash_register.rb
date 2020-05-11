@@ -22,6 +22,7 @@ class CashRegister
     @total = price*quantity + self.total
     quantity.times do 
       @items << item
+    end
   end
   
   def total
