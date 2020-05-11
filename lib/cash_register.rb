@@ -25,7 +25,6 @@ class CashRegister
     end
     last_transaction = @items.last 
     last_price = price
-    binding.pry
   end
   
   def total
