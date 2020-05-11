@@ -11,7 +11,7 @@ class CashRegister
 
   def apply_discount
     if discount > 0
-      discount.to_f/100 * self.total
+      self.total * discount.to_f/100
     end
   end
   #apply_discount = something.apply_discount #
