@@ -34,8 +34,7 @@ class CashRegister
   end
 
   def void_last_transaction
-    @items.each do |item|
-      item.price
+    @items.length - 1
     end
   end
 
